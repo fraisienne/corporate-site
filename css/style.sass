@@ -1,0 +1,46 @@
+/*
+Error: Invalid CSS after "...top/cover.jpg")": expected "{", was ";"
+        on line 187 of sample.scss
+
+182:     }
+183:                     }
+184: }
+185:   //retina_bg
+186: 
+187:   background-image: url("../images/top/cover.jpg");
+188:   background-size: cover;
+189:   }
+190:   // min-width: 551px
+191:   }
+192: 
+
+Backtrace:
+sample.scss:187
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:665:in `block'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...top/cover.jpg\")\": expected \"{\", was \";\"\A         on line 187 of sample.scss\A \A 182:     }\A 183:                     }\A 184: }\A 185:   //retina_bg\A 186: \A 187:   background-image: url(\"../images/top/cover.jpg\");\A 188:   background-size: cover;\A 189:   }\A 190:   // min-width: 551px\A 191:   }\A 192: "; }
