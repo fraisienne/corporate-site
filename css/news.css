@@ -85,6 +85,13 @@ header .pc_navi_li li a {
     padding-right: 10px;
 }
 
+@media (min-width: 550px){
+header #header_in {
+    padding: 15px 0 10px 0;
+}
+}
+
+
 .fb_reset {
     background: none;
     border: 0;
